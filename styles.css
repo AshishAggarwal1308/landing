@@ -9,6 +9,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-image: url("bg.gif");
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-size: 100%;
 }
 
 .register{
@@ -23,8 +27,8 @@
     border-radius: 4px;
 }
 .about-us{
-    background-image: url("https://images.saymedia-content.com/.image/t_share/MTk0NTQxODg3OTk3MzU1NjMw/react-background-animations.gif");
-    background-repeat: no-repeat;
+    background-image: url("bg.gif");
+    /* background-repeat: no-repeat; */
     background-position: center;
     background-size: 100%;
     align-items: center;
@@ -146,10 +150,10 @@
     list-style: none;
     text-decoration: none;
 }
-.line{
+/* .line{
     border-left: 1px solid #a0a0a0;
     height: 380px;
-}
+} */
 .form-cont{
     display: flex;
     flex-direction: column;
