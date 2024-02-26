@@ -61,7 +61,8 @@
 .catalogue-elements{
     display: flex;
     flex-direction: row;
-    overflow-wrap: normal;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .catalogue-item a{
     text-decoration: none;
