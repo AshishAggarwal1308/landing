@@ -118,7 +118,8 @@
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -130,6 +131,7 @@
     flex-direction: row;
     align-items: center;    
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .get-in-touch-links  ul{
