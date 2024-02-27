@@ -107,8 +107,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-bottom: 40px;
 }
 .sachin{
@@ -116,12 +118,14 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }
 .contact{
     background-color: black;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
+    min-width: 100%;
     flex-wrap: wrap;
     /* flex-direction: row; */
     width: 100%;
@@ -134,8 +138,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;    
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
+    gap: 40px;
 }
 
 .get-in-touch-links  ul{
