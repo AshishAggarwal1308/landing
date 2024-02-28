@@ -120,14 +120,14 @@
     align-items: center;
     justify-content: center;
 }
-.contact{
+/* .contact{
     background-color: black;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     min-width: 100%;
     flex-wrap: wrap;
-    /* flex-direction: row; */
+    flex-direction: row;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -155,10 +155,10 @@
     list-style: none;
     text-decoration: none;
 }
-/* .line{
+.line{
     border-left: 1px solid #a0a0a0;
     height: 380px;
-} */
+}
 .form-cont{
     display: flex;
     flex-direction: column;
@@ -177,4 +177,4 @@
     color: white;
     border: none;
     border-radius: 4px;
-}
+} */
